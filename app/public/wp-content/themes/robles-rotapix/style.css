@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+/*
+Theme Name: Robles Rotapix Test
+Author: Gabriel Nicolas Robles
+Author URI: https://rblsn.vercel.app/
+Description: A custom WordPress theme with React.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, custom-background
+Text Domain: robles-rotapix
+*/
+
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #f4f4f9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.site-header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.site-description {
+    font-size: 1.2em;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu li {
+    margin: 0;
+}
+
+.header-menu a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+}
+
+.content-body {
+    margin: auto;
+    max-width: 1200px;
+}
